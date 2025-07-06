@@ -4,7 +4,7 @@ Atualmente estou cursando Engenharia de Software na Estácio
 Sou programador Python
 Estudo também HTML e CSS
 
-![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=jhonatamdantas&theme=aura_dark&show_icons=true)
+
 
 <div style="display: inline_block"><br>
   <img align="center" alt="Jhonatam-HTML" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg">
@@ -19,3 +19,8 @@ Estudo também HTML e CSS
   <a href = "jhonatam.dts@gmail.com"><img src="https://img.shields.io/badge/-Gmail-%23333?style=for-the-badge&logo=gmail&logoColor=white" target="_blank"></a>
   <a href="https://www.linkedin.com/in/jhonatam-dantas-836803353" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank"></a> 
 </div>
+
+<br>
+
+![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=jhonatamdantas&theme=aura_dark&show_icons=true&include_all_comits=true&locale=pt-br)
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=jhonatamdantas&theme=aura_dark&show_icons=true&include_all_comits=true&locale=pt-br)](https://github.com/anuraghazra/github-readme-stats)
