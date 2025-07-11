@@ -2,7 +2,7 @@
 
 <p>Atualmente estou cursando Engenharia de Software na Estácio </p>
 <p>Sou programador Python</p>
-<p>Estudo também HTML e CSS</p>
+<p>Tenho experiência em HTML e CSS</p>
 
 
 
