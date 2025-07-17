@@ -5,7 +5,7 @@
 <p>Atualmente, sou programador back-end em Python, e também tenho experiência com HTML5 e CSS. Além disso, estou no 2° Semestre da faculdade de Engenharia de Software.</p>
 
 
-<h3>Meu perfil do Likedin</h3>
+<h3>Meu perfil do Linkedin</h3>
 <p><a href="https://www.linkedin.com/in/jhonatam-dantas/" target="_self">Clique aqui</a></p>
 
 <div style="display: inline_block"><br>
