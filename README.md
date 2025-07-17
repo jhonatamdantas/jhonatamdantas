@@ -4,6 +4,10 @@
 
 <p>Atualmente, sou programador back-end em Python, e também tenho experiência com HTML5 e CSS. Além disso, estou no 2° Semestre da faculdade de Engenharia de Software.</p>
 
+
+<h3>Meu perfil do Likedin</h3>
+<p><a href="https://www.linkedin.com/in/jhonatam-dantas/" target="_self">Clique aqui</a></p>
+
 <div style="display: inline_block"><br>
   <img align="center" alt="Jhonatam-HTML" height="45" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg">
   <img align="center" alt="Jhonatam-CSS" height="45" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg">
