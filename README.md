@@ -1,6 +1,6 @@
 # Olá, sou Jhonatam, Desenvolvedor Back-End!⚡
 
-<p>Sempre fui um garoto curioso e apaixonado por tecnologia desde pequenho, lembro muito bem quando tive meu primeiro contato com ela quando meu pai me deu um Playstation 2 rs. Através dele, criei a curiosidade acessar computadores e celulares, o que me gerava mais curiosidade de como todo aquele ecossistema de aplicativos, sistemas operacionais eram desenvolvidos, foi o que me levou a programação.</p>
+<p>Sempre fui um garoto curioso e apaixonado por tecnologia desde pequeno, lembro muito bem quando tive meu primeiro contato com ela quando meu pai me deu um Playstation 2 rs. Através dele, criei a curiosidade acessar computadores, celulares e tablets, o que me gerava cada vez mais curiosidade de como todo aquele ecossistema de aplicativos, sistemas operacionais eram desenvolvidos, como tudo aquilo funcionava, foi o que me levou a programação.</p>
 
 <p>Atualmente, sou programador back-end em Python, e também tenho experiência com HTML5 e CSS. Além disso, estou no 2° Semestre da faculdade de Engenharia de Software.</p>
 
