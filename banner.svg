@@ -1,0 +1,149 @@
+<svg width="900" height="280" viewBox="0 0 900 280" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>
+      @keyframes fadeUp {
+        from { opacity:0; transform:translateY(12px); }
+        to   { opacity:1; transform:translateY(0); }
+      }
+      @keyframes fadeIn {
+        from { opacity:0; }
+        to   { opacity:1; }
+      }
+      @keyframes expandLine {
+        from { stroke-dashoffset: 300; }
+        to   { stroke-dashoffset: 0; }
+      }
+      @keyframes blink {
+        0%,100% { opacity:1; }
+        50%     { opacity:0; }
+      }
+      @keyframes shimmer {
+        0%,100% { opacity:0.15; }
+        50%     { opacity:0.55; }
+      }
+      @keyframes countUp {
+        from { opacity:0; transform:translateY(6px); }
+        to   { opacity:1; transform:translateY(0); }
+      }
+      .line-anim {
+        stroke-dasharray: 300;
+        stroke-dashoffset: 300;
+        animation: expandLine 1s ease forwards;
+      }
+      .cursor {
+        animation: blink 1s step-end infinite;
+      }
+      .dot1 { animation: shimmer 2.5s ease-in-out infinite; }
+      .dot2 { animation: shimmer 2.5s ease-in-out infinite 0.8s; }
+      .dot3 { animation: shimmer 2.5s ease-in-out infinite 1.6s; }
+    </style>
+  </defs>
+
+  <!-- Background: very dark charcoal -->
+  <rect width="900" height="280" fill="#111111"/>
+
+  <!-- Subtle grid texture -->
+  <g opacity="0.04">
+    <line x1="0" y1="70" x2="900" y2="70" stroke="#ffffff" stroke-width="0.5"/>
+    <line x1="0" y1="140" x2="900" y2="140" stroke="#ffffff" stroke-width="0.5"/>
+    <line x1="0" y1="210" x2="900" y2="210" stroke="#ffffff" stroke-width="0.5"/>
+    <line x1="150" y1="0" x2="150" y2="280" stroke="#ffffff" stroke-width="0.5"/>
+    <line x1="300" y1="0" x2="300" y2="280" stroke="#ffffff" stroke-width="0.5"/>
+    <line x1="450" y1="0" x2="450" y2="280" stroke="#ffffff" stroke-width="0.5"/>
+    <line x1="600" y1="0" x2="600" y2="280" stroke="#ffffff" stroke-width="0.5"/>
+    <line x1="750" y1="0" x2="750" y2="280" stroke="#ffffff" stroke-width="0.5"/>
+  </g>
+
+  <!-- Accent corner bracket top-left -->
+  <g style="animation: fadeIn 0.6s ease both 0.1s; opacity:0;">
+    <line x1="40" y1="55" x2="40" y2="30" stroke="#aaaaaa" stroke-width="1.5"/>
+    <line x1="40" y1="30" x2="65" y2="30" stroke="#aaaaaa" stroke-width="1.5"/>
+  </g>
+  <!-- Accent corner bracket bottom-right -->
+  <g style="animation: fadeIn 0.6s ease both 0.1s; opacity:0;">
+    <line x1="860" y1="225" x2="860" y2="250" stroke="#aaaaaa" stroke-width="1.5"/>
+    <line x1="860" y1="250" x2="835" y2="250" stroke="#aaaaaa" stroke-width="1.5"/>
+  </g>
+
+  <!-- Top label -->
+  <text x="40" y="56" fill="#555555" font-size="11" font-family="'Courier New', monospace" letter-spacing="3"
+        style="animation: fadeIn 0.7s ease both 0.2s; opacity:0;">
+    PORTFOLIO · DEV
+  </text>
+
+  <!-- Main name -->
+  <text x="40" y="130" fill="#f0f0f0" font-size="52" font-family="Georgia, 'Times New Roman', serif" font-weight="bold" letter-spacing="-1"
+        style="animation: fadeUp 0.7s ease both 0.35s; opacity:0;">
+    Jhonatam Dantas
+  </text>
+
+  <!-- Animated underline -->
+  <line x1="40" y1="145" x2="340" y2="145" stroke="#888888" stroke-width="1"
+        stroke-dasharray="300" stroke-dashoffset="300"
+        style="animation: expandLine 0.9s ease forwards 0.8s;"/>
+
+  <!-- Tagline with blinking cursor -->
+  <g style="animation: fadeUp 0.7s ease both 0.9s; opacity:0;">
+    <text x="40" y="177" fill="#888888" font-size="15" font-family="'Courier New', monospace">
+      &gt; Codificando o extraordinário
+    </text>
+    <text x="350" y="177" fill="#888888" font-size="15" font-family="'Courier New', monospace" class="cursor">_</text>
+  </g>
+
+  <!-- GitHub link -->
+  <text x="40" y="205" fill="#555555" font-size="12" font-family="'Courier New', monospace" letter-spacing="1"
+        style="animation: fadeIn 0.8s ease both 1.1s; opacity:0;">
+    github.com/jhonatamdantas
+  </text>
+
+  <!-- Vertical separator -->
+  <line x1="600" y1="50" x2="600" y2="230" stroke="#2a2a2a" stroke-width="1"
+        style="animation: fadeIn 0.6s ease both 0.5s; opacity:0;"/>
+
+  <!-- Stack section title -->
+  <text x="630" y="80" fill="#444444" font-size="10" font-family="'Courier New', monospace" letter-spacing="3"
+        style="animation: fadeIn 0.8s ease both 0.6s; opacity:0;">
+    STACK
+  </text>
+
+  <!-- Python -->
+  <g style="animation: fadeUp 0.6s ease both 0.75s; opacity:0;">
+    <rect x="630" y="95" width="220" height="36" rx="4" fill="#1a1a1a" stroke="#2d2d2d" stroke-width="1"/>
+    <text x="650" y="119" fill="#4b8bbe" font-size="18" font-family="monospace">⬡</text>
+    <text x="676" y="119" fill="#cccccc" font-size="13" font-family="'Courier New', monospace">Python</text>
+    <text x="820" y="119" fill="#333333" font-size="11" font-family="'Courier New', monospace">lang</text>
+  </g>
+
+  <!-- Java -->
+  <g style="animation: fadeUp 0.6s ease both 0.9s; opacity:0;">
+    <rect x="630" y="140" width="220" height="36" rx="4" fill="#1a1a1a" stroke="#2d2d2d" stroke-width="1"/>
+    <text x="650" y="164" fill="#e76f00" font-size="16" font-family="monospace">◈</text>
+    <text x="676" y="164" fill="#cccccc" font-size="13" font-family="'Courier New', monospace">Java</text>
+    <text x="820" y="164" fill="#333333" font-size="11" font-family="'Courier New', monospace">lang</text>
+  </g>
+
+  <!-- Django -->
+  <g style="animation: fadeUp 0.6s ease both 1.05s; opacity:0;">
+    <rect x="630" y="185" width="220" height="36" rx="4" fill="#1a1a1a" stroke="#2d2d2d" stroke-width="1"/>
+    <text x="650" y="209" fill="#44b78b" font-size="16" font-family="monospace">◇</text>
+    <text x="676" y="209" fill="#cccccc" font-size="13" font-family="'Courier New', monospace">Django</text>
+    <text x="820" y="209" fill="#333333" font-size="11" font-family="'Courier New', monospace">fw</text>
+  </g>
+
+  <!-- Decorative dots bottom left -->
+  <g class="dot1"><circle cx="520" cy="220" r="2" fill="#555555"/></g>
+  <g class="dot2"><circle cx="532" cy="220" r="2" fill="#555555"/></g>
+  <g class="dot3"><circle cx="544" cy="220" r="2" fill="#555555"/></g>
+
+  <!-- Bottom line -->
+  <line x1="40" y1="248" x2="860" y2="248" stroke="#1e1e1e" stroke-width="1"
+        style="animation: fadeIn 0.8s ease both 1.3s; opacity:0;"/>
+  <text x="40" y="264" fill="#333333" font-size="10" font-family="'Courier New', monospace" letter-spacing="2"
+        style="animation: fadeIn 0.8s ease both 1.4s; opacity:0;">
+    SOFTWARE DEVELOPER
+  </text>
+  <text x="860" y="264" text-anchor="end" fill="#333333" font-size="10" font-family="'Courier New', monospace" letter-spacing="1"
+        style="animation: fadeIn 0.8s ease both 1.4s; opacity:0;">
+    2025
+  </text>
+</svg>
