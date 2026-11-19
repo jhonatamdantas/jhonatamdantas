@@ -16,6 +16,8 @@
   <img width="12" />
   <img src="https://skillicons.dev/icons?i=django&theme=light" height="50" alt="django logo"  />
   <img width="12" />
+  <img src="https://skillicons.dev/icons?i=fastapi&theme=dark" height="50" alt="django logo"  />
+  <img width="12" />
   <img src="https://skillicons.dev/icons?i=java&theme=light" height="50" alt="java logo" />
   <img width="12" />
   <img src="https://skillicons.dev/icons?i=py&theme=light" height="50" alt="python logo"  />
