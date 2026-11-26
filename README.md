@@ -27,15 +27,6 @@
 </div>
 <br>
 
-<h2>Redes Sociais</h2>
-<div align="left">
-  <a href="https://www.linkedin.com/in/jhonatam-dantas/">
-    <img src="https://github.com/devicons/devicon/blob/master/icons/linkedin/linkedin-original.svg" height="40"/>
-  </a>
-  <a href="https://www.instagram.com/jhonatam.dantas/">
-    <img src="https://github.com/tandpfun/skill-icons/blob/main/icons/Instagram.svg" height="40"/>
-  </a>
-</div>
 
 <br clear="both">
 
